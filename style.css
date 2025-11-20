@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    background-color: #F1F3E0;
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+li{
+    list-style: none;
+    padding: 2em;
+    font-size: 1em;
+    font-weight: 900;
+   
+}
+header{
+    background-color: #D2DCB6;
+    text-align: center;
+}
+h1{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.p01{
+    padding-bottom: 5em;
+}
+main{
+    background-color: #A1BC98;
+}
+main h2{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+.condiner1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10em;
+}
+.card-condiner{
+    background-color: white;
+    width: fit-content;
+    border-radius: 0.5em;
+    bottom: 15px 15px 15px  15px; 
+   
+}
+
+h5{
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+main .condiner1 .card-condiner .p1{
+    padding-left: 0.5em;
+}
+footer{
+    background-color: #778873;
+    
+}
+footer .condiner2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+footer .condiner2 .card h6{
+    padding-bottom: 2em;
+    
+}
+@media all and (max-width:550px) {
+    .condiner1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+    .condiner2{
+        flex-direction: column;
+
+    }
+    footer .condiner2 h6{
+       text-align: start;
+       
+    }
+    
+}
